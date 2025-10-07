@@ -19,8 +19,10 @@ namespace TestProject1
             var instance1 = DogCeo.Instance;
             var instance2 = DogCeo.Instance;
 
+
             // Assert
             Assert.Same(instance1, instance2);
+            Assert.NotNull(instance1);
         }
         [Fact]
         // test add one observer
