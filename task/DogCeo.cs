@@ -17,7 +17,7 @@ namespace TaskAPI
         private HttpClient _httpClient = new HttpClient();
 
         //Observer
-        private List<Action<string>> _observers = new List<Action<string>>();
+        public List<Action<string>> _observers = new List<Action<string>>();
 
         private DogCeo() { }
 
@@ -63,5 +63,8 @@ namespace TaskAPI
             }
         }
        
+
+
+
     }
 }

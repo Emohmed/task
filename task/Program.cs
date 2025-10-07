@@ -15,3 +15,5 @@ public class Program
         await manager.FetchDogImageAsync();
     }
 }
+
+// https://images.dog.ceo/breeds/
